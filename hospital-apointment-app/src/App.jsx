@@ -5,6 +5,8 @@ import Home from './components/Home/Home/Home';
 // import Details from './components/Details/Details';
 import Selectionpg from './components/SelectionPg/Selectionpg'
 import AppointmentPg from './components/Appointment/AppointmentPg';
+import Book from "./components/Book/Book";
+
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
           <Route path="/select" element={<Selectionpg/>}> 
           </Route>
           <Route path="/appointment" element={<AppointmentPg/>}> 
+          </Route>
+          <Route path="/book" element={<Book/>}> 
           </Route>
         </Routes>
         <br/>

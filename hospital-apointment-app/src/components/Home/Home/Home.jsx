@@ -10,7 +10,7 @@ export default function Home() {
         getList();
     },[]);
     const getList=()=>{
-        fetch("http://localhost:4000/hospital")
+        fetch("https://hospitalapollo.herokuapp.com/hospital")
         .then((res)=>res.json())
         .then((json)=>{
             console.log(json);
@@ -19,14 +19,20 @@ export default function Home() {
     }
     return (
         <>
-            <img className="home-poster" src="https://thumbs.dreamstime.com/b/queue-hospital-people-registry-service-healthcare-medical-concept-vector-illustration-flat-style-207813521.jpg" alt="" />
+        <div className="cont">
+        <img style={{opacity:.6}} className="home-poster" src="https://thumbs.dreamstime.com/b/queue-hospital-people-registry-service-healthcare-medical-concept-vector-illustration-flat-style-207813521.jpg" alt="" />
+        <div class="centered">CHOOSE YOUR FAVOURITE HOSPITAL</div>
+        </div>
+
+
+           
 
             <div className="title" style={{color:"white"}}>Chose Hospital</div>
 
             <div className="hospitalsCont">
             {
                 list.map((e)=>(
-                    <Hospitals img={e.profile_pic} title={e.name} />
+                    <Hospitals img={e.profile_pic} title={e.name} id={e.doctor_id} />
                 ))
             }
             </div>

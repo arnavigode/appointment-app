@@ -1,25 +1,36 @@
-import React from 'react'
-import "./SelectionPg.css"
-import Doctors from "../Doctors/Doctors"
+import React, { useEffect, useState } from "react";
+import "./SelectionPg.css";
+import Doctors from "../Doctors/Doctors";
 export default function Selectionpg() {
-    return (
-        <>
-          <div>
-              <div className="container">
-              <div className="container flx-sel">
-                  <Doctors/>
-                  <Doctors/>
-                  <Doctors/>
-              </div>
-              <div className="container flx-sel">
-                  <Doctors/>
-                  <Doctors/>
-                  <Doctors/>
-              </div>
-              </div>
-              
-              
+
+  const [list, setList] = useState([]);
+  useEffect(() => {
+    getList();
+  }, []);
+
+  const getList = () => {
+    var ids = localStorage.getItem("id");
+    // console.log(ids.split(","));
+    ids = ids.split(",");
+    setList(ids);
+  };
+  console.log(list);
+  return (
+    <>
+      <div>
+        <div className="container">
+          <br />
+          <br />
+          <div className="docCont">
+            {list.map((e) => (
+                
+              <Doctors
+                id= {e}
+              />
+            ))}
           </div>
-        </>
-    )
+        </div>
+      </div>
+    </>
+  );
 }

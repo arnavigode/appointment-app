@@ -1,6 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-export default function Hospitals({ img, title }) {
+export default function Hospitals({ img, title, id }) {
+  const handleClick = ()=>{
+    localStorage.setItem("id", [id]);
+  }
   return (
     <div>
       <div className="card mb-3" style={{ maxWidth: "540px", boxShadow:"2px 2px 13px rgb(0 0 0 / 10%)", border:"3px solid #fff" }}>
@@ -20,8 +24,10 @@ export default function Hospitals({ img, title }) {
                 {/* <br /> */}
                 
               </p>
-              <button type="button" class="btn btn-outline-info">
+              <button type="button" class="btn btn-outline-info" onClick={handleClick}>
+                <Link className="link" to="/select">
                   Select Hospital
+                </Link>
                 </button>
             </div>
           </div>

@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
   return (
     <div>
       <nav id="nav-body" className="navbar navbar-light  fixed-top">
-        <div className="container-fluid">
+        <div className="container-fluid" style={{color: 'white'}}>
           <a className="navbar-brand" href="/">
             <img className="logo-nav" src="https://s3-symbol-logo.tradingview.com/apollo-hospitals--600.png" alt="" />
           </a>
-          CARE+
+          WE CARE
           <button
             className="navbar-toggler"
             type="button"
@@ -26,8 +26,8 @@ import { Link } from "react-router-dom";
             aria-labelledby="offcanvasNavbarLabel"
           >
             <div className="offcanvas-header" id="offCan-body-head">
-              <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-                CARE+
+              <h5 className="offcanvas-title" id="offcanvasNavbarLabel" style={{color: 'white'}}>
+               WE CARE
               </h5>
               <button
                 type="button"
@@ -39,22 +39,22 @@ import { Link } from "react-router-dom";
             <div className="offcanvas-body" id="offCan-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className="nav-item">
-                  <Link to="/">
+                  <Link className="link" to="/">
                   Home
                   </Link>
                   
                 </li>
                 <li className="nav-item">
-                <Link to="/select">
+                <Link className="link" to="/select">
                   Selection Page
                   </Link>
                 </li>
                 <li className="nav-item">
-                <Link to="/appointment">
+                <Link className="link" to="/appointment">
                 appointment Page
                   </Link>
                 </li>
-                <li className="nav-item dropdown">
+                {/* <li className="nav-item dropdown">
                   <a
                     className="nav-link dropdown-toggle"
                     href="/"
@@ -65,7 +65,7 @@ import { Link } from "react-router-dom";
                   >
                     Dropdown
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
