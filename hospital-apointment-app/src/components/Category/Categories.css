@@ -1,0 +1,35 @@
+.category{
+    visibility: visible;
+    animation-delay: 0.2s;
+    animation-name: fadeInUp;
+    display: block;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border: 3px solid #fff;
+    margin: 0 auto;
+    box-shadow: 2px 2px 13px rgb(0 0 0 / 10%);
+    cursor: pointer;
+}
+.cat-a{
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+}
+.cat-info{
+margin-bottom: 50px;
+margin-top: 1rem !important;
+}
+.cat-title{
+font-size: 14px;
+text-align: center;
+}
+.cat-title-a{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #000;
+    transition: all .3s;
+    text-decoration: none;
+    background-color: transparent;
+}

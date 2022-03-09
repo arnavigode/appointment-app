@@ -1,0 +1,40 @@
+[
+    {
+      "name": "Care Hospital",
+      "profile_pic": "https://media.istockphoto.com/photos/modern-hospital-building-picture-id1312706413?b=1&k=20&m=1312706413&s=170667a&w=0&h=VRi3w2E1UqvCCcK-nDV6mH7FhDZoTU9MM2QKSom96X4=",
+      "adress": "Satara",
+      "doctor_id":["6227a2b29a551a305e4e3109", "6227a2b29a551a305e4e310a","6227a2b29a551a305e4e310b", "6227a2b29a551a305e4e310c" ]
+    },
+    {
+        "name": "CarePlus Hospital",
+        "profile_pic": "https://cdn.britannica.com/12/130512-004-AD0A7CA4/campus-Riverside-Ottawa-The-Hospital-Ont.jpg",
+        "adress": "Mumbai",
+        "doctor_id":["6227a2b29a551a305e4e3109", "6227a2b29a551a305e4e310a","6227a2b29a551a305e4e310b", "6227a2b29a551a305e4e310c" ]
+      }
+      ,
+      {
+        "name": "Patil Hospital",
+        "profile_pic": "https://image.shutterstock.com/image-photo/modern-hospital-style-building-260nw-690690040.jpg",
+        "adress": "Pune",
+        "doctor_id":["6227a2b29a551a305e4e3109", "6227a2b29a551a305e4e310a","6227a2b29a551a305e4e310b", "6227a2b29a551a305e4e310c" ]
+      },
+      {
+        "name": "Health care Hospital",
+        "profile_pic": "https://i.pinimg.com/originals/72/fb/bb/72fbbb2693580c414dc51e8b4a7ba08f.jpg",
+        "adress": "Thane",
+        "doctor_id":["6227a2b29a551a305e4e3109", "6227a2b29a551a305e4e310a","6227a2b29a551a305e4e310b", "6227a2b29a551a305e4e310c" ]
+      },
+      {
+        "name": "Apollo Hospital",
+        "profile_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWjLLfTCzXx5SXs0PiThpRAw-Vs14s2dCg14WNdmHysNrdS7V7-IESxrZaiT0zrNG-8es&usqp=CAU",
+        "adress": "Banglore",
+        "doctor_id":["6227a2b29a551a305e4e3109", "6227a2b29a551a305e4e310a","6227a2b29a551a305e4e310b", "6227a2b29a551a305e4e310c" ]
+      },
+      {
+        "name": "Shah Hospital",
+        "profile_pic": "https://i.pinimg.com/236x/8a/97/39/8a973932bc86d901baf9a5590d537999--children-s-hospital-the-hospital.jpg",
+        "adress": "Hyderabad",
+        "doctor_id":["6227a2b29a551a305e4e3109", "6227a2b29a551a305e4e310a","6227a2b29a551a305e4e310b", "6227a2b29a551a305e4e310c" ]
+      }
+  ]
+  

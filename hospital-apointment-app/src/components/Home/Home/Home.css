@@ -1,0 +1,9 @@
+.home-poster{
+    width: 100%;
+    margin-top: 0;
+    padding-top: 0%;
+}
+.hospitalsCont{
+    display: grid;
+    grid-template-columns: auto auto;
+}

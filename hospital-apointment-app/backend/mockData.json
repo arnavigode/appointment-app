@@ -1,0 +1,154 @@
+[
+  {
+    "name": "Dr. Akash",
+    "fees": 200,
+    "profile_pic": "https://www.artemishospitals.com/BackEndImages/DoctorImage/dr-dr-sanjat-chiwane.jpg",
+    "speciality": ["Cardiology", "Surgery"]
+  },
+  {
+    "name": "Dr. Harry",
+    "fees": 300,
+    "profile_pic": "https://www.artemishospitals.com/BackEndImages/DoctorImage/dr-dr-brig-ashok-k-rajput.jpg",
+    "speciality": "Psychiatrist"
+  },
+  {
+    "name":  "Dr. Potter",
+    "fees":  400,
+    "profile_pic": "https://www.artemishospitals.com/BackEndImages/DoctorImage/dr-dr-abhinandan-mukhopadhyay.jpg",  
+    "speciality":  "Pediatric"
+},
+{
+    "name":  "Dr. Jhony",
+    "fees":  250,
+    "profile_pic": "http://shtheme.com/demosd/medifine/wp-content/uploads/2017/07/doctor-single-2.jpg",  
+    "speciality":  "eye specialist"
+},
+
+{
+    "name": "Dr. Finaly",
+    "fees": 200,
+    "profile_pic": "https://www.sarojhospital.com/images/doc_pic/Dr.%20Greesh%20Manwani%20(MD)_1773_Dr.%20Gerish%20Mnwani.JPG",
+    "speciality": ["Cardiology", "Surgery"]
+  },
+  {
+    "name": "Dr. Rashid",
+    "fees": 300,
+    "profile_pic": "https://www.sarojhospital.com/images/doc_pic/DR.%20RAVINDER%20PAL%20SINGH%20(MCh)_7794_Dr.%20R.%20P.%20Singh.JPG",
+    "speciality": "Psychiatrist"
+  },
+  {
+    "name":  "Dr. Lao",
+    "fees":  400,
+    "profile_pic": "https://www.sriramakrishnahospital.com/wp-content/uploads/2021/09/sri-ramakrishna-hospital-ltu-dr-anandha-bharathan.jpg",  
+    "speciality":  "Pediatric"
+},
+{
+    "name":  "Dr. Lynch",
+    "fees":  250,
+    "profile_pic": "https://max-website20-images.s3.ap-south-1.amazonaws.com/Sujeet_20_Jha_01_62fbb0b52f.jpg",  
+    "speciality":  "eye specialist"
+},
+
+{
+    "name": "Dr. Almasaro",
+    "fees": 200,
+    "profile_pic": "https://ak.picdn.net/shutterstock/videos/6645089/thumb/1.jpg",
+    "speciality": ["Cardiology", "Surgery"]
+  },
+  {
+    "name": "Dr. Jim",
+    "fees": 300,
+    "profile_pic": "https://www.rgcirc.org/wp-content/uploads/2017/12/Dr-Mansi.jpg",
+    "speciality": "Psychiatrist"
+  },
+  {
+    "name":  "Dr. Grattan",
+    "fees":  400,
+    "profile_pic": "https://www.breachcandyhospital.org/images/2016/12/12/Dr-Rajani_2.jpg",  
+    "speciality":  "Pediatric"
+},
+{
+    "name":  "Dr. Heidegger",
+    "fees":  250,
+    "profile_pic": "https://www.kauveryhospital.com/doctorimage/recent/Dr.-S.-Mahalakshm2022-02-23-01:39:29pm.jpg",  
+    "speciality":  "eye specialist"
+}
+,
+{
+    "name":  "Dr. Edwin",
+    "fees":  250,
+    "profile_pic": "https://www.fernandezhospital.com/public/images/dr-krishna-chaitanya.jpg",  
+    "speciality":  "eye specialist"
+},
+{
+    "name": "Dr. Yuri",
+    "fees": 200,
+    "profile_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsVk6xDwsPvNnEl_iZw3epo8CP3w_ECMCx-Q&usqp=CAU",
+    "speciality": ["Cardiology", "Surgery"]
+  },
+  {
+    "name": "Dr. Petrie",
+    "fees": 300,
+    "profile_pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFlVedIaUoPuHmRKCQ9Wv2ndqydIqVna-3Hw&usqp=CAU",
+    "speciality": "Psychiatrist"
+  },
+  {
+    "name":  "Dr. Henry",
+    "fees":  400,
+    "profile_pic": "https://www.carehospitals.com/wp-content/uploads/2021/05/Dr.-Manjula-Anagani.png",  
+    "speciality":  "Pediatric"
+}
+
+,
+{
+    "name":  "Dr. Leete",
+    "fees":  250,
+    "profile_pic": "https://cdn.askapollo.com/live/images/doctors/obstetrics-and-gynecology/dr-archana-sinha-obstetrics-and-gynecology-in-kolkata.png",  
+    "speciality":  "eye specialist"
+}
+,
+{
+    "name": "Dr. Bovary",
+    "fees": 200,
+    "profile_pic": "https://www.chaithanya.org/assets/webimage/Dr%20Lala%20Sarah%20Mathew_1642936492.jpg",
+    "speciality": ["Cardiology", "Surgery"]
+  },
+  {
+    "name": "Dr. Benway",
+    "fees": 300,
+    "profile_pic": "https://mycareever.com/wp-content/uploads/2021/10/dr-chitra-sreenivasa-murthy-consultant-obstetrics-and-gynecologist.png",
+    "speciality": "Psychiatrist"
+  },
+  {
+    "name":  "Dr. Horace",
+    "fees":  400,
+    "profile_pic": "https://aimsmohali.punjab.gov.in/media/images/Director-photo.original.jpg",  
+    "speciality":  "Pediatric"
+}
+,
+{
+    "name":  "Dr. Hastie",
+    "fees":  250,
+    "profile_pic": "https://rajkot.wockhardthospitals.com/wp-content/uploads/2021/08/Dr.-Khyati-Vasavada.jpg",  
+    "speciality":  "eye specialist"
+}
+,
+{
+    "name": "Dr. Astrov",
+    "fees": 200,
+    "profile_pic": "https://www.zenhospital.in/wp-content/uploads/2020/03/7ef25f22-fef6-4e20-9791-402400013471.jpg",
+    "speciality": ["Cardiology", "Surgery"]
+  },
+  {
+    "name": "Dr. Lao",
+    "fees": 300,
+    "profile_pic": "https://breachcandyhospital.org/images/2016/11/15/Dr.%20Milind%20Kirtane.jpg",
+    "speciality": "Psychiatrist"
+  },
+  {
+    "name":  "Dr. Anton",
+    "fees":  400,
+    "profile_pic": "https://www.fortisescorts.in/uploaded_files/doctors/Dr-Vijay-Kumar2578303.jpg",  
+    "speciality":  "Pediatric"
+}
+]
